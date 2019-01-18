@@ -26,3 +26,8 @@ function distanceTravelledInFeet(startingBlock, endingBlock){
     return (startingBlock - endingBlock) * feetInBlock
   }
 }
+
+function calculatesFarePrice(startingBlock, endingBlock){
+  const feetTraveled = distanceTravelledInFeet(startingBlock, endingBlock)
+  
+}
